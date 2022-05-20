@@ -1,0 +1,96 @@
+:root {
+    --secondary-color: #757575;
+    --prime-color: #212121;
+    --accent-color: #2196F3;
+    --background-color: #ffffff;
+}
+
+body {
+    font-family:Roboto,'Raleway', sans-serif;
+    color: var(--prime-color);
+    background-color: var(--background-color);
+    letter-spacing: 0.03em;
+}
+
+.logo { 
+text-decoration: none;
+font-family: "Raleway";
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+}
+
+.navigation,
+.navigation-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.logo-blue {
+    color: var(--accent-color);
+}
+
+.navigation-item {
+}
+.comtact-list {
+}
+.hero { 
+    background-color:#2F303A;
+}
+.hero-title {
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.hero-btn {
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.features {
+}
+.features-title {
+}
+.title {
+}
+.feateres-list {
+}
+.features-item {
+}
+.busines {
+}
+.busines-title {
+}
+.busines-list {
+}
+.busines-item {
+}
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-member {
+}
+.adress-list {
+}
+.adress-item {
+}
