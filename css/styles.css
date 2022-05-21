@@ -15,12 +15,12 @@ body {
 /* Header */
 
 .logo { 
-    ext-decoration: none;
-    ont-family: "Raleway";
-    ont-weight: 700;
-    ont-size: 26px;
-    ine-height: 1.19;
-    olor: #212121;
+    text-decoration: none;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #212121;
 }
 
 .navigation,
@@ -65,8 +65,15 @@ body {
 .hero { 
     background-color:#2F303A;
 }
-.hero-title {    ont-style: normal;    ont-weight: 900;    ont-size: 44px;    ine-height: 1.36;
-    ext-align: center;    etter-spacing: 0.06em;    ext-transform: uppercase;    olor: #FFFFFF;
+.hero-title {    
+    font-style: normal;    
+    font-weight: 900;    
+    font-size: 44px;    
+    line-height: 1.36;
+    text-align: center;    
+    letter-spacing: 0.06em;    
+    text-transform: uppercase;    
+    color: #FFFFFF;
 }
 .hero-btn {
     width: 200px;
