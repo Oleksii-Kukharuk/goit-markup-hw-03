@@ -15,12 +15,12 @@ body {
 /* Header */
 
 .logo { 
-text-decoration: none;
-font-family: "Raleway";
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-color: #212121;
+    ext-decoration: none;
+    ont-family: "Raleway";
+    ont-weight: 700;
+    ont-size: 26px;
+    ine-height: 1.19;
+    olor: #212121;
 }
 
 .navigation,
@@ -65,16 +65,8 @@ color: #212121;
 .hero { 
     background-color:#2F303A;
 }
-.hero-title {
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF;
+.hero-title {    ont-style: normal;    ont-weight: 900;    ont-size: 44px;    ine-height: 1.36;
+    ext-align: center;    etter-spacing: 0.06em;    ext-transform: uppercase;    olor: #FFFFFF;
 }
 .hero-btn {
     width: 200px;
@@ -102,16 +94,16 @@ color: #FFFFFF;
 .features { 
 }
 .visually-hidden {
-        position: absolute;
-        white-space: nowrap;
-        width: 1px;
-        height: 1px;
-        overflow: hidden;
-        border: 0;
-        padding: 0;
-        clip: rect(0 0 0 0);
-        clip-path: inset(50%);
-        margin: -1px;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 .features-title {
     font-weight: 700;
@@ -175,10 +167,10 @@ color: #FFFFFF;
 }
 
 .team-position {
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-color: var(--secondary-color);
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--secondary-color);
 }
  /* ------------------------------------------------------------------footer */
 footer {
@@ -218,13 +210,13 @@ footer .logo {
 }
 
 .filter-btn {
-font-family: 'Roboto';
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--prime-color);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--prime-color);
 
 width: 73px;
     height: 38px;
@@ -244,6 +236,6 @@ width: 73px;
     background: #2196F3;
 /* shadow-middle */
 
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
