@@ -12,6 +12,11 @@ body {
     letter-spacing: 0.03em;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
 p,
 h1,
 h2, 
@@ -36,6 +41,7 @@ ul {
     padding-top: 24px;
     padding-bottom: 25px;
     background-color: var(--background-color);
+    border: 1px solid #ECECEC;
 }
 
 .header .container {
@@ -314,6 +320,7 @@ color: var(--secondary-color);
 
 
 .portfolio-list {
+    padding-bottom: 94px;
     padding-left: 0;
     list-style: none;
     display: flex;
@@ -323,14 +330,17 @@ color: var(--secondary-color);
 }
 
 .portfolio-cards {
+
     flex-basis: calc((100% - 90px) / 3);
     margin-left: 30px;
     margin-top: 30px;
+    border: 1px solid #EEEEEE;
 
 }
 
 .portfolio-items {
     padding: 20px 24px;
+    
 }
 
 
