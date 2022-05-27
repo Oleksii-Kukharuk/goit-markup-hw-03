@@ -304,9 +304,15 @@ address {
 }
 footer .logo {
   color: #ffffff;
+  margin-right: 0;
 }
 
 /* =================================================Portfolio */
+
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .portfolio-title {
   font-weight: 700;
@@ -323,7 +329,6 @@ footer .logo {
 }
 
 .portfolio-list {
-  padding-bottom: 94px;
   padding-left: 0;
   list-style: none;
   display: flex;
@@ -350,7 +355,6 @@ footer .logo {
   text-decoration: none;
   list-style: none;
   margin-bottom: 50px;
-  margin-top: 94px;
   justify-content: center;
 }
 
@@ -367,6 +371,9 @@ footer .logo {
 
   cursor: pointer;
   padding: 6px 22px;
+}
+
+.filter-item:not(:last-child) {
   margin-right: 8px;
 }
 
